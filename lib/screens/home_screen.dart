@@ -5,6 +5,7 @@ import '../modules/room.dart';
 import '../modules/data.dart';
 import '../widgets/room_container.dart';
 
+// ignore: use_key_in_widget_constructors
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -21,23 +22,23 @@ class HomeScreen extends StatelessWidget {
               color: Colors.black,
               size: 30,
             ),
-            // ignore: avoid_unnecessary_containers
+            // ignore: avoid_unnecessary_containers, sized_box_for_whitespace
             Container(
               width: 220,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.email_outlined,
                     color: Colors.black,
                     size: 30,
                   ),
-                  Icon(
+                  const Icon(
                     Icons.calendar_today_outlined,
                     color: Colors.black,
                     size: 30,
                   ),
-                  Icon(
+                  const Icon(
                     Icons.notifications_none,
                     color: Colors.black,
                     size: 30,

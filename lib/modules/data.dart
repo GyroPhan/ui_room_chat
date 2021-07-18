@@ -57,7 +57,7 @@ final List<Room> rooms = [
         profilePicture:
             'https://www.google.com/search?q=mozart&sa=X&biw=1440&bih=788&sxsrf=ALeKk02QLmjljliVUxIitza-5eo2X-chbg:1626497660853&tbm=isch&source=iu&ictx=1&fir=UYjMDS2IKimbJM%252CXasKDVAZqyCtnM%252C%252Fm%252F082db&vet=1&usg=AI4_-kQmEYUXcRYUkQTCb1INc3PcFFVAzQ&ved=2ahUKEwj97bX6p-nxAhVUILcAHY-4AoQQ_B16BAgwEAE#imgrc=UYjMDS2IKimbJM'),
   ]),
-  Room(name: 'Soccer', speakers: [
+  Room(name: 'Soccer', audience: [
     Member(
         name: 'Didier Drogba',
         profilePicture:
@@ -82,7 +82,7 @@ final List<Room> rooms = [
         name: 'Frank Lampard',
         profilePicture:
             'https://www.google.com/search?q=lampard&bih=788&biw=1440&hl=vi&sxsrf=ALeKk02gTd9Zmj5BvzYsrxy1Pl4TmhLJwQ:1626498024940&tbm=isch&source=iu&ictx=1&fir=MzNxDDDynu7tIM%252CX3sDj-sh1Dli7M%252C%252Fm%252F034njw&vet=1&usg=AI4_-kSysELKd8LFbrHGBtpVELWWPU5rPg&sa=X&ved=2ahUKEwit64OoqenxAhXwILcAHcoLBtMQ_B16BAgtEAE#imgrc=MzNxDDDynu7tIM'),
-  ], audience: [
+  ], speakers: [
     Member(
         name: 'Didier Drogba',
         profilePicture:
